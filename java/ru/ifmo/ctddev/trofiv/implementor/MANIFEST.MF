@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+Created-By: trofiv
+Class-Path: quickcheck-0.6.jar
+Main-Class: ru.ifmo.ctddev.trofiv.implementor.Implementor
