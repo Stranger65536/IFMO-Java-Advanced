@@ -447,7 +447,6 @@ public class Implementor implements JarImpler {
      *                            overridden by method represented by reducedOverrider
      * @return true if method represented by reducedOverrider overrides method represented by reducedOverriddable
      */
-    @SuppressWarnings("OverlyComplexBooleanExpression")
     private static boolean isOverridden(
             final ReducedEqualityMethod reducedOverrider,
             final ReducedEqualityMethod reducedOverriddable) {
@@ -496,7 +495,6 @@ public class Implementor implements JarImpler {
      * @throws ImplerException if class/interface can't be extended/implemented or generated source file can't be
      *                         compile or corresponding jar file couldn't be created
      */
-    @SuppressWarnings("MethodWithMoreThanThreeNegations")
     private static void createJar(final Class<?> token, final Path jarFile) throws ImplerException {
         final String sourceLocation = token.getCanonicalName().replace('.', '/') + "Impl.java";
         final String classLocation = token.getCanonicalName().replace('.', '/') + "Impl.class";

@@ -28,3 +28,10 @@ java/info/kgeorgiy/java/advanced/crawler/Result.java
 java/info/kgeorgiy/java/advanced/crawler/URLUtils.java
 java/info/kgeorgiy/java/advanced/crawler/CachingDownloader.java
 java/ru/ifmo/ctddev/trofiv/crawler/WebCrawler.java
+
+java/info/kgeorgiy/java/advanced/hello/HelloClient.java
+java/info/kgeorgiy/java/advanced/hello/HelloServer.java
+java/ru/ifmo/ctddev/trofiv/hello/ClientRunnable.java
+java/ru/ifmo/ctddev/trofiv/hello/ServerRunnable.java
+java/ru/ifmo/ctddev/trofiv/hello/HelloUDPClient.java
+java/ru/ifmo/ctddev/trofiv/hello/HelloUDPServer.java

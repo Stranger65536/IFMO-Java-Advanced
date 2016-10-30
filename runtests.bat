@@ -12,3 +12,7 @@ java -Dfile.encoding=UTF8 -cp artifacts/*;lib/*;out info.kgeorgiy.java.advanced.
 @PAUSE
 java -Dfile.encoding=UTF8 -cp artifacts/*;lib/*;out info.kgeorgiy.java.advanced.crawler.Tester hard ru.ifmo.ctddev.trofiv.crawler.WebCrawler
 @PAUSE
+java -Dfile.encoding=UTF8 -cp artifacts/*;lib/*;out info.kgeorgiy.java.advanced.hello.Tester client ru.ifmo.ctddev.trofiv.hello.HelloUDPClient
+@PAUSE
+java -Dfile.encoding=UTF8 -cp artifacts/*;lib/*;out info.kgeorgiy.java.advanced.hello.Tester server ru.ifmo.ctddev.trofiv.hello.HelloUDPServer
+@PAUSE

@@ -8,6 +8,7 @@ import java.security.NoSuchAlgorithmException;
 
 import static java.nio.charset.StandardCharsets.UTF_8;
 
+@SuppressWarnings("DuplicateStringLiteralInspection")
 public class Walk {
     private static final String READ_ERROR_MD5_VALUE = "00000000000000000000000000000000";
 
